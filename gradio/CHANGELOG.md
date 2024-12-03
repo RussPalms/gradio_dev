@@ -1,5 +1,20 @@
 # gradio
 
+## 5.8.0
+
+### Features
+
+- [#10083](https://github.com/gradio-app/gradio/pull/10083) [`b2a21c6`](https://github.com/gradio-app/gradio/commit/b2a21c643dc5e50581567cbde7b660357b3d982e) - Add HTML support to paramviewer descriptions.  Thanks @aliabd!
+- [#10096](https://github.com/gradio-app/gradio/pull/10096) [`ec10aa3`](https://github.com/gradio-app/gradio/commit/ec10aa3b9b42d8c3fe930aff9465c469626992d4) - Fix paramviewer descriptions to only render markdown links.  Thanks @aliabd!
+- [#10080](https://github.com/gradio-app/gradio/pull/10080) [`ebe25bc`](https://github.com/gradio-app/gradio/commit/ebe25bc13f3b2a90876c59a816c6976fd12b6b73) - Fix chatbot/chatinterface type mismatch.  Thanks @abidlabs!
+- [#10071](https://github.com/gradio-app/gradio/pull/10071) [`01b919f`](https://github.com/gradio-app/gradio/commit/01b919f04b69732fd8adb52f6d156e5683589221) - Support `additional_outputs` in `gr.ChatInterface`.  Thanks @abidlabs!
+- [#10081](https://github.com/gradio-app/gradio/pull/10081) [`b94f010`](https://github.com/gradio-app/gradio/commit/b94f010a5672730d50b191c0b92df1676bb7144c) - Apply Zero GPU for `gr.ChatInterface`.  Thanks @abidlabs!
+
+### Fixes
+
+- [#10094](https://github.com/gradio-app/gradio/pull/10094) [`98dd668`](https://github.com/gradio-app/gradio/commit/98dd6687e1d4cc527fdc21083cba74533032a417) - add http codes 303 and 307 to `url_ok`.  Thanks @sharon-wang!
+- [#10090](https://github.com/gradio-app/gradio/pull/10090) [`5ea3cb5`](https://github.com/gradio-app/gradio/commit/5ea3cb51a39ba01fda7f65ff31e59955e1d12cea) - Update `requirements.txt` for `gradio` and `gradio_client`.  Thanks @abidlabs!
+
 ## 5.7.1
 
 ### Features
